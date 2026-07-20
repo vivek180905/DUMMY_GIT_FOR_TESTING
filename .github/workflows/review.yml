@@ -17,7 +17,7 @@ jobs:
 
       # THIS IS WHERE YOUR CUSTOM ACTION IS CALLED!
       - name: Gemini PR Reviewer
-        uses: vivek180905/pr-review@main 
+        uses: vivek180905/Gemini-AI-PR-Reviewer@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           gemini-api-key: ${{ secrets.GEMINI_API_KEY }}
